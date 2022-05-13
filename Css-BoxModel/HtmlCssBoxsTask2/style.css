@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+
+}
+
+.img{
+    width: 30%;
+}
+.img img{
+    width: 100%;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.info1 *{
+    margin: 7% 0;
+    font-size: 80%;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}

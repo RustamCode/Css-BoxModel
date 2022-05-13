@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.main .leftside{
+    position: fixed;
+    left:150px;
+    top:100px;
+    margin-right: 10px;
+}
+
+.main .leftside .header h1{
+    line-height: 0.5;
+   
+}
+.main .leftside .gradient h1{
+
+    width: 150px;
+    background: linear-gradient(to right, #07cc28,#0e74e1,#f300a2,#ecff1e) ;
+    font-size: 3px;    
+}
+
+.main .leftside .context p{
+
+    width: 500px;
+    font-size:larger;
+    color: #4b4b4b;
+}
+.main .rightside .table{
+    position: fixed;
+    width: 500px;
+    right: 50px; 
+    top: 100px;
+
+
+}
+.main .rightside .table table tr td{
+    width: 250px;
+    height: 120px;
+    border-collapse: collapse;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.main .rightside .table table tr td:hover{
+    box-shadow:inset 300px 0 0 0 #ffcc00;
+    width: 150px;
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+    background:linear-gradient(360deg,transparent,#dc076afc);
+    font-size: xx-large;
+    width: 350px;
+    height: 200px;
+    border-color:rgb(133, 255, 40);
+    border-width: 4px;
+    
+}
+.main .rightside .table a h2 img{
+    display: block;
+    width: 100px;
+
+}
+.main .rightside .table td p{
+    font-size: x-large;
+    font-weight:bolder;
+    color: #303030;
+}
+
